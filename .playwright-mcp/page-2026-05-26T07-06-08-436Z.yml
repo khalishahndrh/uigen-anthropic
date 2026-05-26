@@ -1,0 +1,133 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a simple pricing card component with a title, price, list of features, and a call-to-action button.
+            - img [ref=e60]
+          - generic [ref=e63]:
+            - img [ref=e66]
+            - generic [ref=e71]:
+              - paragraph [ref=e73]: This is a static response. You can place an Anthropic API key in the .env file to use the Anthropic API for component generation. Let me create an App.jsx file to display the component.
+              - generic [ref=e76]: Creating App.jsx
+              - separator [ref=e77]
+              - paragraph [ref=e79]: I'll create a Card component for you.
+              - generic [ref=e82]: Creating Card.jsx
+              - separator [ref=e83]
+              - paragraph [ref=e85]: Now let me enhance the component with better styling.
+              - generic [ref=e88]: Editing Card.jsx
+              - separator [ref=e89]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "Perfect! I've created:"
+                - list [ref=e92]:
+                  - listitem [ref=e93]:
+                    - strong [ref=e94]: Card.jsx
+                    - text: "- A fully-featured card component"
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: App.jsx
+                    - text: "- The main app file that displays the component"
+                - paragraph [ref=e102]: The component is now ready to use. You can see the preview on the right side of the screen.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e103]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111] [cursor=pointer]:
+              - img [ref=e112]
+              - img [ref=e114]
+              - generic [ref=e116]: components
+            - generic [ref=e119] [cursor=pointer]:
+              - img [ref=e120]
+              - generic [ref=e125]: Card.jsx
+          - generic [ref=e127] [cursor=pointer]:
+            - img [ref=e128]
+            - generic [ref=e133]: App.jsx
+        - separator [ref=e134]
+        - code [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - generic [ref=e355]: "1"
+              - generic [ref=e147]: "2"
+              - generic [ref=e356]:
+                - generic [ref=e357] [cursor=pointer]: 
+                - generic [ref=e358]: "3"
+              - generic [ref=e360]: "4"
+              - generic [ref=e362]: "5"
+              - generic [ref=e364]: "6"
+              - generic [ref=e366]: "7"
+              - generic [ref=e367]:
+                - generic [ref=e368] [cursor=pointer]: 
+                - generic [ref=e369]: "8"
+              - generic [ref=e370]:
+                - generic [ref=e371] [cursor=pointer]: 
+                - generic [ref=e372]: "9"
+              - generic [ref=e373]:
+                - generic [ref=e374] [cursor=pointer]: 
+                - generic [ref=e375]: "10"
+              - generic [ref=e376]:
+                - generic [ref=e377] [cursor=pointer]: 
+                - generic [ref=e378]: "11"
+              - generic [ref=e379]:
+                - generic [ref=e380] [cursor=pointer]: 
+                - generic [ref=e381]: "12"
+              - generic [ref=e181]: "13"
+              - generic [ref=e183]: "14"
+              - generic [ref=e185]: "15"
+              - generic [ref=e187]: "16"
+              - generic [ref=e189]: "17"
+              - generic [ref=e383]:
+                - generic [ref=e384] [cursor=pointer]: 
+                - generic [ref=e385]: "18"
+              - generic [ref=e388]: "19"
+              - generic [ref=e391]: "20"
+              - generic [ref=e393]:
+                - generic [ref=e394] [cursor=pointer]: 
+                - generic [ref=e395]: "21"
+              - generic [ref=e396]:
+                - generic [ref=e397] [cursor=pointer]: 
+                - generic [ref=e398]: "22"
+            - generic [ref=e303]:
+              - generic [ref=e487]: import React from 'react';
+              - generic [ref=e489]: "const Card = ({"
+              - generic [ref=e491]: title = "Welcome to Our Service",
+              - generic [ref=e493]: description = "Discover amazing features and
+              - generic [ref=e495]: capabilities that will transform your experience.",
+              - generic [ref=e497]: imageUrl,
+              - generic [ref=e499]: actions
+              - generic [ref=e501]: "}) => {"
+              - generic [ref=e503]: return (
+              - generic [ref=e505]: <div className="bg-white rounded-lg shadow-md
+              - generic [ref=e507]: "{imageUrl && ("
+              - generic [ref=e509]: <img
+              - generic [ref=e511]: "src={imageUrl}"
+              - generic [ref=e513]: "alt={title}"
+              - generic [ref=e515]: className="w-full h-48 object-cover"
+              - generic [ref=e517]: />
+              - generic [ref=e519]: ")}"
+              - generic [ref=e521]: overflow-hidden">
+              - generic [ref=e523]: <div className="p-6 hover:bg-gray-50
+              - generic [ref=e525]: transition-colors">
+              - generic [ref=e527]: <h3 className="text-xl font-semibold mb-2">
+              - generic [ref=e529]: "{title}</h3>"
+              - generic [ref=e531]: <p className="text-gray-600 mb-4">
+              - generic [ref=e533]: "{description}</p>"
+              - generic [ref=e535]: "{actions && ("
+              - generic [ref=e537]: <div className="mt-4">
+            - textbox "Editor content" [ref=e352]: "</div> </div> ); }; export default Card;"
+  - alert [ref=e47]
+  - generic [ref=e353]:
+    - alert
+    - alert
